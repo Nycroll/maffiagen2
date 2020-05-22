@@ -141,4 +141,4 @@ if (message.content === '+gen'){
         message.author.send(`${random}`);
 };
 });
-client.login(token);
+client.login(process.env.TOKEN);
