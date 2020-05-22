@@ -1,8 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-const token = "NzEzMTQ1ODI1NTc1ODI5NTM1.Xse5Pw.Bs1FRNNmS2WhiBsHRw24N8TzCuo";
-
 client.on('ready', () =>{
     console.log('gen bot is now online')
 });
